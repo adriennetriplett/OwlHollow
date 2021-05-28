@@ -1,0 +1,247 @@
+body{
+	background-color: #353c46;
+	color: white;
+	font-size: 16px;
+	font-family: helvetica,arial,courier;
+	padding: 0px
+	margin: 0px;
+}
+
+* {box-sizing: border-box}
+
+.responsive{
+	max-width: 100%;
+	height: auto;
+}
+
+.navbar{
+	background-color: #353c46;
+	color: white;
+	width: 100%;
+	overflow: auto;
+	padding: 0px;
+}
+
+
+.navbar a {
+	float: left;
+	width: 25%;
+	padding:12px;
+	text-align: center;
+	transition: background-color 0.2s;
+	color: #f8931f;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.navbar a:hover {
+	background-color: #f8931f;
+	color: white;
+}
+
+.beer {
+	background-color: #f8931f;
+	color: #353c46;
+	padding-left: 3em;
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+
+.beerpic {
+	float: right;
+	padding-right: 2em;
+	padding-top: 0.5em;
+	padding-bottom: 4em;
+}
+
+.contact {
+	background-color: #f8931f;
+	color: #353c46;
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+
+.menu {
+	background-color: #f8931f;
+	color: #353c46;
+	padding-left: 3em;
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+
+.btn {
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+.menuheading {
+	text-align: center;
+}
+
+.menubutton {
+	background-color: #353c46;
+	color: #f8931f;
+
+}
+
+.columns {
+	column-count: 2;
+	column-gap: 3em;
+	padding-right: 1em;
+}	
+
+.home {
+	background-color: #f8931f;
+	color: #353c46;
+	padding: 2em;
+}
+
+h2 {
+	font-weight: bold;
+}
+
+h4 {
+	font-weight: bold;
+}
+
+h4 {
+	font-weight: bold;
+}
+
+p {
+	font-weight: bold;
+}
+
+.subheading {
+	text-align: center;
+}
+
+.beer p {
+	font-weight: bold;
+	padding-left: 1em;
+}
+
+.footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 20px;
+  line-height: 20px;
+  background-color: #f8931f;
+  color: #353c46;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+}
+
+#contact-form {
+    display:block;
+}
+
+.contact-body {
+    margin: 0;
+    font-family: helvetica,arial,courier;
+    font-weight: bold;
+    line-height: 1.5;
+    color: white;
+    text-align: left;
+    background-color: #353c46;
+    padding: 30px;
+    padding-bottom: 10px;
+    max-width: 100%;
+}
+
+.contact-form-group {
+    margin-bottom: 1em;
+}
+
+.contact-input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+.contact-form-control {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0.375em 0.75em;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    outline: none;
+    border-radius: 0.25em;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+textarea.contact-form-control {
+    font-family: helvetica,arial,courier;
+    height: auto;
+}
+
+label.contact-label {
+    display: inline-block;
+    margin-bottom: 0.5em;
+}
+
+.contact-btn {
+    display: inline-block;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375em 0.75em;
+    font-size: 1em;
+    line-height: 1.5;
+    border-radius: 0.25em;
+}
+
+.contact-btn:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+.contact-btn-primary {
+    color: #fff;
+    background-color: #848381;
+    border-color: #4a4948;
+}
+
+.contact-btn-primary:hover {
+    color: #fff;
+    background-color: #4a4948;
+    border-color: #848381;
+}
+
+.contact-btn-lg, .contact-btn-group-lg>.contact-btn {
+    padding: 0.5em 1em;
+    font-size: 1.25em;
+    line-height: 1.5;
+    border-radius: 0.3em;
+}
+
+.contact-btn-block {
+    display: block;
+    width: 100%;
+}
+
+
+input[type="submit"].contact-btn-block, input[type="reset"].contact-btn-block, input[type="button"].contact-btn-block {
+    width: 100%;
+}
+

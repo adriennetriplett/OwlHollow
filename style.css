@@ -1,27 +1,25 @@
-body{
+body {
 	background-color: #353c46;
 	color: white;
 	font-size: 16px;
-	font-family: helvetica,arial,courier;
-	padding: 0px
+	font-family: helvetica,arial,sans-serif;
+	padding: 0px;
 	margin: 0px;
+	font-weight: bold;
 }
 
-* {box-sizing: border-box}
-
-.responsive{
+.responsive {
 	max-width: 100%;
 	height: auto;
 }
 
-.navbar{
+.navbar {
 	background-color: #353c46;
 	color: white;
 	width: 100%;
 	overflow: auto;
 	padding: 0px;
 }
-
 
 .navbar a {
 	float: left;
@@ -40,19 +38,46 @@ body{
 	color: white;
 }
 
+.welcome {
+	background-color: #353c46;
+	color: white;
+	text-align: center;
+	margin: auto;
+	padding: 2em;
+}
+
 .beer {
 	background-color: #f8931f;
 	color: #353c46;
-	padding-left: 3em;
 	padding-top: 2em;
 	padding-bottom: 1em;
 }
 
-.beerpic {
-	float: right;
-	padding-right: 2em;
-	padding-top: 0.5em;
-	padding-bottom: 4em;
+.glass {
+	text-align: center;
+} 
+
+.beer p {
+	font-weight: bold;
+}
+
+.beerpics {
+	padding: 5em;
+}
+
+.beeritem h4, p {
+	text-align: center;
+}	
+
+.beeritem {
+	transition: transform 0.2s ease;
+	box-shadow: 0 6px 8px 0 rgba(24, 24, 28, 0.5);
+	padding-top: 1em;
+	border-radius: 10px;
+} 
+
+.beeritem:hover {
+	transform: scale(1.4);
 }
 
 .contact {
@@ -67,7 +92,6 @@ body{
 .menu {
 	background-color: #f8931f;
 	color: #353c46;
-	padding-left: 3em;
 	padding-top: 2em;
 	padding-bottom: 1em;
 }
@@ -84,7 +108,31 @@ body{
 .menubutton {
 	background-color: #353c46;
 	color: #f8931f;
+	font-weight: bold;
+	box-shadow: 0 6px 8px 0 rgba(24, 24, 28, 0.5);
+}
 
+.menubutton:hover {
+	color: white;
+	border-color: white;
+}
+
+.menuitem {
+	box-shadow: 0 6px 8px 0 rgba(24, 24, 28, 0.5);	
+	margin-bottom: 2em;
+	margin-top: 2em;
+	text-align: center;
+	padding-top: 1em;
+}
+
+.menuitem:hover {
+	transform: scale(1.3);
+	position: relative;
+	z-index:100;
+}
+
+.menupic {
+	text-align: center;
 }
 
 .columns {
@@ -93,49 +141,36 @@ body{
 	padding-right: 1em;
 }	
 
+.bold {
+	font-weight: bold;
+}
+
+.contact-intro {
+	text-align: center;
+}
+
 .home {
 	background-color: #f8931f;
 	color: #353c46;
 	padding: 2em;
 }
 
-h2 {
-	font-weight: bold;
-}
-
-h4 {
-	font-weight: bold;
-}
-
-h4 {
-	font-weight: bold;
-}
-
-p {
-	font-weight: bold;
-}
-
 .subheading {
 	text-align: center;
 }
 
-.beer p {
-	font-weight: bold;
-	padding-left: 1em;
-}
-
 .footer {
-  position: static;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  font-size: 20px;
-  line-height: 20px;
-  background-color: #f8931f;
-  color: #353c46;
-  text-align: center;
-  padding-top: 1em;
-  padding-bottom: 0.5em;
+	position: static;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	font-size: 20px;
+	line-height: 20px;
+	background-color: #f8931f;
+	color: #353c46;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 0.5em;
 }
 
 #contact-form {
@@ -239,7 +274,6 @@ label.contact-label {
     display: block;
     width: 100%;
 }
-
 
 input[type="submit"].contact-btn-block, input[type="reset"].contact-btn-block, input[type="button"].contact-btn-block {
     width: 100%;
